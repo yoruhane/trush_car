@@ -60,3 +60,4 @@ C:\Users\渡予謂\Desktop\stupid\CsvToSqliteProject\obj\Debug\net9.0\CsvToSqlit
 C:\Users\渡予謂\Desktop\stupid\CsvToSqliteProject\obj\Debug\net9.0\CsvToSqliteProject.genruntimeconfig.cache
 C:\Users\渡予謂\Desktop\stupid\CsvToSqliteProject\obj\Debug\net9.0\ref\CsvToSqliteProject.dll
 C:\Users\渡予謂\Desktop\stupid\CsvToSqliteProject\obj\Debug\net9.0\compressed\ie4wl480y7-gcutyho47i.gz
+C:\Users\渡予謂\Desktop\stupid\CsvToSqliteProject\obj\Debug\net9.0\CsvToSqliteProject.sourcelink.json
