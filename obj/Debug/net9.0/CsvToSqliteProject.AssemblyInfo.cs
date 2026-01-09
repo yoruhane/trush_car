@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsvToSqliteProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f49f403ae70d17d025c9a7160915c497e20e912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bc546c0eb3dba6f417d23a295cf974a65e546af")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsvToSqliteProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsvToSqliteProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
