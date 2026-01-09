@@ -8,5 +8,15 @@
 net9.0
 
 在CsvToSqliteProject的資料夾裡的Program.cs
-終端機裡dotnet run，找到localhost:5xxx
+專案建置
+dotnet build
+dotnet run
+找到localhost:5xxx
 進去，有了
+
+##結構
+graph LR
+A[CSV Files] --> B(C# Importer)
+B --> C[(SQLite DB)]
+C --> D[ASP.NET Core API]
+D --> E[Leaflet.js Map]
