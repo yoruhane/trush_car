@@ -36,22 +36,11 @@ app.MapGet("/api/cars", async (AppDbContext db) =>
 
 // 4. 建立 API 接口：根據車牌篩選
 app.MapGet("/api/cars/{carId}", async (string carId, AppDbContext db) => 
-    await db.CarLocation.Where(c => c.car == carId).ToListAsync());
+    await db.CarLocation.Where(c => c.Car == carId).ToListAsync());
 
 app.Run();
 
-// --- 你的模型與 DbContext 定義保持不變 ---
-public class CarLocation {
-    [Key] public int lineid { get; set; }
-    public string car { get; set; } = "";
-    public DateTime time { get; set; }
-    public string location { get; set; } = "";
-    public double longitude { get; set; }
-    public double latitude { get; set; }
-    public int cityid { get; set; }
-    public string cityname { get; set; } = "";
-}
-
+// --- DbContext 定義 ---
 public class AppDbContext : DbContext {
     public DbSet<CarLocation> CarLocation { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder options)
